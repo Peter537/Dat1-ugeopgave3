@@ -18,10 +18,7 @@ class Task1 {
 	}
 
 	public static void printIfPalindrome(String text){
-		String reverse = "";
-		for (int i = text.length() - 1; i >= 0; i--) {
-			reverse = reverse + text.charAt(i);
-		}
+		String reverse = new StringBuilder(text).reverse().toString();
 		if (text.equalsIgnoreCase(reverse)) {
 			System.out.println(text);
 		}
