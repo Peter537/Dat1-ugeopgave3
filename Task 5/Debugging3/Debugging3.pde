@@ -1,4 +1,5 @@
-boolean jobsDone = false;
+boolean jobsDone = true;
+// 'false' changed to 'true'
 
 void setup()
 {
@@ -8,7 +9,8 @@ void setup()
     }
 }
 
-void isJobDone()
+// 'void' method changed to 'boolean'
+boolean isJobDone()
 {
     return jobsDone;    
 }
