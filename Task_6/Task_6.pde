@@ -5,11 +5,7 @@ void setup() {
   size(320, 320);
   for (int x = 0; x < 8; x++) {
     for (int y = 0; y < 8; y++) {
-      if ((x + y) % 2 == 0) {
-        board[x][y] = 0;
-      } else {
-        board[x][y] = 1;
-      }
+      board[x][y] = (x + y) % 2; // Rest værdi er enten 0 eller 1
     }
   }
 }
