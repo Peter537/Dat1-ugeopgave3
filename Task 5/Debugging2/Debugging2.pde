@@ -1,4 +1,5 @@
-void Setup() 
+void setup() 
 {
-   println("Jobs done!"); 
+  // Lille 's' i Setup() method
+  println("Jobs done!"); 
 }
