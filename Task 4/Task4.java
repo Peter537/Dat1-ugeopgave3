@@ -13,7 +13,7 @@ class Task4 {
 	}
 
 	public static void fibonacci(int a, int b) {
-		System.out.println(a + "\t" + b);
+		System.out.print(a + "\t");
 		if (b < 1000) {
 			fibonacci(b, a + b);
 		}
